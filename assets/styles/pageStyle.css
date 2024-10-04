@@ -1,0 +1,109 @@
+@import url(universalStyle.css);
+
+body {
+     margin: 0;
+     background-color: rgba(249, 249, 249, 1);
+     display: grid;
+}
+.guiaDeBusca {
+     width: 1380px;
+     height: 56px;
+     padding: 0px 24px 0px 24px;
+     gap: 0px;
+     opacity: 0px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+}
+#perfil {
+     width: 36px;
+     height: 36px;
+     border-radius: 50%;
+}
+form {
+     display: flex;
+     flex-wrap: nowrap;
+}
+.search-input {
+     padding: 5px;
+     width: 348px;
+     height: 40px;
+     top: 8px;
+     left: 526px;
+     gap: 0px;
+     border: 1px solid rgba(204, 204, 204, 1);
+     border-right: none;
+     border-radius: 40px 0 0 40px;
+}
+.search-btn {
+     width: 57px;
+     height: 40px;
+     top: 8px;
+     left: 873px;
+     gap: 0px;
+     border-radius: 0 40px 40px 0;
+     border: 1px solid rgba(204, 204, 204, 1);
+}
+.menu-icons {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     align-content: right;
+     justify-content: right;
+     width: 130px;
+     height: 34px;
+     gap: 24px;
+     opacity: 0px;
+}
+section.layout {
+     display: flex;
+     flex-direction: row;
+}
+.menu {
+     width: 200px;
+     height: 500px;
+     display: grid;
+     align-content: center;
+     padding: 24px;
+     gap: 22px;
+     top: 56px;
+     
+}
+a {
+     text-decoration: none;
+     color: black;
+     font-size: 14px;
+
+}
+.container {
+     display: grid;
+     grid-template-columns: 0.7fr 5.3fr;
+     margin: 0;
+     gap: 0;
+}
+main {
+     display: grid;
+     grid-template-columns: repeat(5, 1fr);
+     justify-content: center;
+     align-items: center;
+     padding-right: 0;
+}
+main a {
+     align-items: center;
+     padding: 15px;
+}
+main a img {
+     width: 180px;
+     height: 90px;
+     gap: 0px;
+     opacity: 0px;
+
+}
+
+main a h3{
+     font-size: 12px;
+}
+main a p {
+     font-size: 10px;
+}
